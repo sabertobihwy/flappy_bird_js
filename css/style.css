@@ -1,0 +1,85 @@
+* {
+    margin: 40px;
+    padding: 0px;
+}
+
+p {
+    text-align: center
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.sky {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+    background: url("../imgs/sky.png");
+    z-index: 1;
+
+}
+
+.bird {
+    position: absolute;
+    background: url("../imgs/bird.png");
+    margin: 0;
+    top: 100px;
+    left: 100px;
+    height: 40px;
+    width: 40px;
+    z-index: 2;
+}
+
+.bird.swing1 {
+    background-position: 0px;
+}
+
+.bird.swing2 {
+    background-position: -55px;
+}
+
+.bird.swing3 {
+    background-position: -108px;
+}
+
+.land {
+    margin: 0;
+    position: absolute;
+    background: url("../imgs/land.png");
+    height: 18%;
+    width: 200%;
+    bottom: 0;
+    z-index: 2;
+}
+
+.pipe {
+    margin: 0;
+    width: 52px;
+    position: absolute;
+    z-index: 2;
+}
+
+.pipe.up {
+    background: url("../imgs/pipeDown.png");
+    background-position: bottom;
+    height: 200px;
+    top: 0;
+    left: 500px;
+}
+
+.pipe.down {
+    background: url("../imgs/pipeUp.png");
+    height: 150px;
+    bottom: 108px;
+    left: 500px;
+}
