@@ -35,21 +35,21 @@ p {
     margin: 0;
     top: 100px;
     left: 100px;
-    height: 40px;
-    width: 40px;
+    width: 33px;
+    height: 26px;
     z-index: 2;
 }
 
 .bird.swing1 {
-    background-position: 0px;
+    background-position: -8px -10px;
 }
 
 .bird.swing2 {
-    background-position: -55px;
+    background-position: -60px -10px;
 }
 
 .bird.swing3 {
-    background-position: -108px;
+    background-position: -113px -10px;
 }
 
 .land {
@@ -57,7 +57,7 @@ p {
     position: absolute;
     background: url("../imgs/land.png");
     height: 18%;
-    width: 200%;
+    width: 300%;
     bottom: 0;
     z-index: 2;
 }
@@ -72,14 +72,14 @@ p {
 .pipe.up {
     background: url("../imgs/pipeDown.png");
     background-position: bottom;
-    height: 200px;
-    top: 0;
-    left: 500px;
+    /* height: 200px; */
+    /* top: 0;
+    left: 500px; */
 }
 
 .pipe.down {
     background: url("../imgs/pipeUp.png");
-    height: 150px;
-    bottom: 108px;
-    left: 500px;
+    /* height: 150px; */
+    /* bottom: 108px;
+    left: 500px; */
 }
